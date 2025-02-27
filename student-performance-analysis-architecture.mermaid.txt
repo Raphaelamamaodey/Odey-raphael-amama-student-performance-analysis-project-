@@ -1,0 +1,25 @@
+graph TD;
+    A["Data Collection & Preparation"]-->B["Exploratory Data Analysis"]
+    B-->C["Feature Engineering & Selection"]
+    C-->D["Model Training"]
+    D-->E["Model Evaluation"]
+    E-->F["Insights & Recommendations"]
+    
+    A1["Student Records"]-->A
+    A2["Academic Data"]-->A
+    A3["Demographic Data"]-->A
+    
+    B1["Statistical Analysis"]-->B
+    B2["Visualization"]-->B
+    
+    C1["Correlation Analysis"]-->C
+    C2["Feature Importance"]-->C
+    
+    D1["Random Forest Classifier"]-->D
+    D2["Cross-Validation"]-->D
+    
+    E1["Accuracy Metrics"]-->E
+    E2["Confusion Matrix"]-->E
+    
+    F1["Performance Factors"]-->F
+    F2["Intervention Strategies"]-->F
